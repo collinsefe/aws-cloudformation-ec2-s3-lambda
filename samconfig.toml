@@ -1,9 +1,0 @@
-version = 0.1
-[default.deploy.parameters]
-stack_name = "sam-cli-stack"
-resolve_s3 = true
-s3_prefix = "sam-cli-stack"
-region = "eu-west-2"
-capabilities = "CAPABILITY_IAM"
-parameter_overrides = "LatestAmiId=\"/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2\" InstanceType=\"t2.micro\" MyIP=\"0.0.0.0/0\""
-image_repositories = []
